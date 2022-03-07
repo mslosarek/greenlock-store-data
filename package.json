@@ -1,0 +1,34 @@
+{
+  "name": "@slosarek/greenlock-store-data",
+  "version": "1.0.0",
+  "description": "A greenlock store that uses a modifiable data storelibrary",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "greenlock",
+    "greenlock-store"
+  ],
+  "author": "mark@slosarek.com",
+  "license": "MIT",
+  "devDependencies": {
+    "greenlock-store-test": "^3.0.2",
+    "mongodb-memory-server": "^8.4.0",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "@slosarek/greenlock-data-layer": "^1.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mslosarek/greenlock-store-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mslosarek/greenlock-store-data/issues"
+  },
+  "homepage": "https://github.com/mslosarek/greenlock-store-data#readme"
+}
